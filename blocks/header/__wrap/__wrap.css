@@ -1,0 +1,6 @@
+.header__wrap {
+  display: flex;
+  align-items: center;
+  padding: 5rem 0 6rem;
+  gap: 3rem;
+}

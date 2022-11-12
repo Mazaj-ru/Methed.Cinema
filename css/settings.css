@@ -4,8 +4,7 @@ html {
   scroll-behavior: smooth;
   /* font-size на разрешении макета 1920px 1000 / 1920 = 00.520834vw равно 10px */
   font-size: 0.520834vw;
-  font-family: 'Inter', sans-serif;
-  /* font-family: 'Raleway', sans-serif; */
+  font-family: var(--font-inter);
   font-style: normal;
   font-weight: 400;
   text-rendering: auto;
@@ -25,11 +24,11 @@ html {
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
   margin: 0;
   padding: 0;
-  background-color: #171717;
-  color: #FFFFFF;
+  background-color: var(--color-bg);
+  color: var(--color-text);
   line-height: 1;
 }
 
@@ -171,15 +170,6 @@ footer {
 .container {
   width: 159rem;
   margin: 0 auto;
-}
-
-@media (max-width: 47.9375em) {
-  .success {
-    padding: 3rem;
-    border: .2rem solid #d6e9c6;
-    border-radius: .8rem;
-    font-size: 3.2rem;
-  }
 }
 
 /* (max-width: 767px) */

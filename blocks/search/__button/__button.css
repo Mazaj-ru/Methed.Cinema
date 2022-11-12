@@ -1,0 +1,8 @@
+.search__button {
+  position: absolute;
+  left: 2rem;
+  top: 50%;
+  height: 4rem;
+  width: 4rem;
+  transform: translateY(-50%);
+}

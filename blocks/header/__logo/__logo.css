@@ -1,0 +1,12 @@
+.header__logo {
+  text-transform: uppercase;
+  font-family: var(--font-raleway);
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 2.9rem;
+  width: 10.6rem;
+}
+
+.header__logo span {
+  color: var(--color-primary);
+}
