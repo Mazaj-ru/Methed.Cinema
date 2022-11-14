@@ -1,0 +1,19 @@
+.preview__info {
+  display: flex;
+  gap: 6.3rem;
+}
+
+
+/* (max-width: 767px) */
+@media (max-width: 47.9375em) {
+  .preview__info {
+    margin-bottom: 3rem;
+  }
+}
+
+/* (min-width: 1024px) and (max-width: 1439px) */
+@media (min-width: 64em) and (max-width: 89.9375em) {
+  .preview__info {
+    margin-bottom: 3rem;
+  }
+}

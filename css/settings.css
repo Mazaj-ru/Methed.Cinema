@@ -179,7 +179,7 @@ footer {
     font-size: 1.5625vw;
   }
   .container {
-
+    width: 58rem;
   }
 }
 
@@ -190,7 +190,7 @@ footer {
     font-size: 0.651042vw;
   }
   .container {
-
+    width: 141.6rem;
   }
 }
 
@@ -201,7 +201,7 @@ footer {
     font-size: 0.976563vw;
   }
   .container {
-
+    width: 96.4rem;
   }
 }
 
@@ -211,6 +211,9 @@ footer {
     /* font-size: (1000/1440) = 0.694445vw // где 1440 это ширина макета */
     font-size: 0.694445vw;
   }
+  .container {
+    width: 138rem;
+  }
 }
 
 /* (min-width: 1600px) and (max-width: 1919px) */
@@ -218,5 +221,8 @@ footer {
   html {
     /* font-size: (1000/1600) = 0.625vw // где 1600 это ширина макета */
     font-size: 0.625vw;
+  }
+  .container {
+    width: 154rem;
   }
 }

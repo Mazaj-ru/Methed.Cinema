@@ -1,0 +1,12 @@
+@import "__wrap/__wrap.css";
+@import "__poster/__poster.css";
+@import "__info/__info.css";
+@import "__title/__title.css";
+@import "__subtitle/__subtitle.css";
+@import "__play/__play.css";
+@import "__btn/__btn.css";
+@import "__btn/--trailer/--trailer.css";
+
+.preview {
+  margin-bottom: 12rem;
+}

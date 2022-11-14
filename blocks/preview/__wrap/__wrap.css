@@ -1,0 +1,19 @@
+.preview__wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* (max-width: 767px) */
+@media (max-width: 47.9375em) {
+  .preview__wrap {
+    justify-content: center;
+  }
+}
+
+/* (min-width: 1024px) and (max-width: 1439px) */
+@media (min-width: 64em) and (max-width: 89.9375em) {
+  .preview__wrap {
+    justify-content: center;
+  }
+}

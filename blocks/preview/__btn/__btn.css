@@ -1,0 +1,19 @@
+.preview__btn {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  color: #FFFFFF;
+  background-color: var(--color-second);
+  padding: 2.5rem 11.3rem;
+  border-radius: .6rem;
+  transition: color .2s ease-in, box-shadow .2s ease-in;
+}
+
+.preview__btn:focus,
+.preview__btn:hover {
+  box-shadow: 0 0 .3rem .2rem var(--color-primary);
+}
+
+.preview__btn:active {
+  color: var(--color-primary);
+}
