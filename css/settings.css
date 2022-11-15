@@ -35,6 +35,11 @@ body {
 a,
 a:hover {
   text-decoration: none;
+  transition: color .2s ease-in;
+}
+
+a:hover {
+  color: var(--color-primary);
 }
 
 input,

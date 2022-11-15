@@ -1,0 +1,8 @@
+.films__link:hover .films__img {
+  box-shadow: 0 0 1rem 1rem var(--color-primary);
+}
+
+.films__link:focus .films__img,
+.films__link:active .films__img {
+  box-shadow: 0 0 2rem 1rem var(--color-primary);
+}

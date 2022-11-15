@@ -1,0 +1,12 @@
+.regulation__img {
+  width: 4.5rem;
+  margin-bottom: 2rem;
+}
+
+/* (min-width: 768px) and (max-width: 1023px) */
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .regulation__img {
+    width: 9rem;
+    margin-bottom: 4rem;
+  }
+}

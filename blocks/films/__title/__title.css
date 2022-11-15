@@ -1,0 +1,27 @@
+.films__title {
+  width: 133rem;
+  margin: 0 auto 6rem;
+  font-family: var(--font-raleway);
+  font-weight: 800;
+  font-size: 12rem;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  opacity: 0.1;
+}
+
+/* (max-width: 767px) */
+@media (max-width: 47.9375em) {
+  .films__title {
+    width: 58rem;
+    font-size: 5.6rem;
+  }
+}
+
+/* (min-width: 1024px) and (max-width: 1439px) */
+@media (min-width: 64em) and (max-width: 89.9375em) {
+  .films__title {
+    width: 96.4rem;
+    font-size: 9.2rem;
+  }
+}

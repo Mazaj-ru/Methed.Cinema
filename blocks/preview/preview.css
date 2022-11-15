@@ -10,3 +10,10 @@
 .preview {
   margin-bottom: 12rem;
 }
+
+/* (max-width: 767px) */
+@media (max-width: 47.9375em) {
+  .preview {
+    margin-bottom: 6rem;
+  }
+}

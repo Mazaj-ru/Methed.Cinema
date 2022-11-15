@@ -1,0 +1,18 @@
+@import "__title/__title.css";
+@import "__title/--add/--add.css";
+@import "__list/__list.css";
+@import "__item/__item.css";
+@import "__link/__link.css";
+@import "__img/__img.css";
+@import "__btn/__btn.css";
+
+.films {
+  margin-bottom: 12rem;
+}
+
+/* (max-width: 767px) */
+@media (max-width: 47.9375em) {
+  .films {
+    margin-bottom: 6rem;
+  }
+}

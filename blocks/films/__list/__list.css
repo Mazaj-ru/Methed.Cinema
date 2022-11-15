@@ -1,0 +1,24 @@
+.films__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  column-gap: 3rem;
+  row-gap: 4rem;
+  margin-bottom: 23rem;
+}
+
+/* (max-width: 767px) */
+@media (max-width: 47.9375em) {
+  .films__list {
+    margin-bottom: 6rem;
+    row-gap: 8rem;
+  }
+}
+
+/* (min-width: 768px) and (max-width: 1023px) */
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .films__list {
+    row-gap: 8rem;
+    column-gap: 6rem;
+  }
+}

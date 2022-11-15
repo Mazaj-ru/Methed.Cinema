@@ -1,0 +1,9 @@
+.navigation__item {
+  margin-bottom: 2rem;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.navigation__item:last-child {
+  margin-bottom: 0;
+}

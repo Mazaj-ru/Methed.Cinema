@@ -1,0 +1,7 @@
+@import "__wrap/__wrap.css";
+@import "__column/__column.css";
+@import "__wrap/__wrap.css";
+
+.footer {
+  padding-bottom: 5rem;
+}

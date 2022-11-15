@@ -51,6 +51,10 @@
   opacity: 0;
 }
 
+.hamburger.active {
+  z-index: 10;
+}
+
 .hamburger.active .hamburger__line:nth-child(3) {
   width: 3.1rem;
   -webkit-transform: translateY(-1rem) rotate(-45deg);
@@ -136,19 +140,4 @@
     -ms-transform: translateY(-2rem) rotate(-45deg);
     transform: translateY(-2rem) rotate(-45deg);
   }
-}
-
-/* (min-width: 1024px) and (max-width: 1439px) */
-@media (min-width: 64em) and (max-width: 89.9375em) {
-
-}
-
-/* (min-width: 1440px) and (max-width: 1599px) */
-@media (min-width: 90em) and (max-width: 99.9375em) {
-
-}
-
-/* (min-width: 1600px) and (max-width: 1919px) */
-@media (min-width: 100em) and (max-width: 119.9375em) {
-
 }

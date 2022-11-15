@@ -9,6 +9,10 @@
   <link rel="preload" href="fonts/Inter-Bold.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/Raleway-Bold.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/Raleway-ExtraBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
+  <script type="module">
+    import { Fancybox } from "https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.esm.js";
+  </script>
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="favicon.svg">
 
@@ -22,7 +26,7 @@
     <header class="header">
       <div class="container">
         <div class="header__wrap">
-          <div class="header__logo"><span class__logo--primary>Methed</span> Cinema</div>
+          <div class="header__logo"><span class="header__logo--primary">Methed</span> Cinema</div>
           <form action="#" class="header__serch search">
             <input type="search" class="search__input" required placeholder="Поиск">
             <button class="search__button"><img src="blocks/search/img/search.svg" alt=""></button>
@@ -48,16 +52,106 @@
             </div>
             <div class="preview__play">
               <button class="preview__btn">Смотреть фильм</button>
-              <button class="preview__btn preview__btn--trailer" aria-label="Смотреть трейлер">
+              <a class="preview__btn preview__btn--trailer" href="https://youtu.be/Q6nepw3fskg" aria-label="Смотреть трейлер" data-fancybox>
                 <svg width="23" height="27" viewBox="0 0 23 27" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                   <path d="M22.5 12.634C23.1667 13.0189 23.1667 13.9811 22.5 14.366L2.25 26.0574C1.58333 26.4423 0.749999 25.9611 0.749999 25.1913L0.75 1.80865C0.75 1.03885 1.58333 0.55773 2.25 0.94263L22.5 12.634Z"/>
                 </svg>
-              </button>
+              </a>
             </div>
           </div>
         </div>
       </section>
+
+      <section class="films">
+        <div class="container">
+          <h2 class="films__title">Другие фильмы <span class="films__title--add">на Mthed Cinema</span></h2>
+          <ul class="films__list">
+            <li class="films__item">
+              <a class="films__link" href="https://youtu.be/DTTVw1NKX9c" data-fancybox>
+                <img class="films__img" src="blocks/films/img/shang-chi.jpg" alt="Постер к фильму Шан-Чи">
+              </a>
+            </li>
+            <li class="films__item">
+              <a class="films__link" href="https://youtu.be/9FpufEP1jeI" data-fancybox>
+                <img class="films__img" src="blocks/films/img/free-guy.jpg" alt="Постер к фильму Главный Герой">
+              </a>
+            </li>
+            <li class="films__item">
+              <a class="films__link" href="https://youtu.be/zeKFmhPKgDs" data-fancybox>
+                <img class="films__img" src="blocks/films/img/addams-family.jpg" alt="Постер к фильму Семейка Аддамс Горящий тур">
+              </a>
+            </li>
+            <li class="films__item">
+              <a class="films__link" href="https://youtu.be/Z3b1GbPg2VM" data-fancybox>
+                <img class="films__img" src="blocks/films/img/no-timeto-die.jpg" alt="Постер к фильму Не время умирать">
+              </a>
+            </li>
+            <li class="films__item">
+              <a class="films__link" href="https://youtu.be/8qB8EGNOtr8" data-fancybox>
+                <img class="films__img" src="blocks/films/img/matrix.jpg" alt="Постер к фильму Матрица">
+              </a>
+            </li>
+            <li class="films__item">
+              <a class="films__link" href="https://youtu.be/hlANal2_tsc" data-fancybox>
+                <img class="films__img" src="blocks/films/img/spiderman.jpg" alt="Постер к фильму Человек паук">
+              </a>
+            </li>
+            <li class="films__item">
+              <a class="films__link" href="https://youtu.be/iiN9qMXyi4g" data-fancybox>
+                <img class="films__img" src="blocks/films/img/infinite.jpg" alt="Постер к фильму Бесконечность">
+              </a>
+            </li>
+            <li class="films__item">
+              <a class="films__link" href="https://youtu.be/Y7chRThbVF0" data-fancybox>
+                <img class="films__img" src="blocks/films/img/eternals.jpg" alt="Постер к фильму Вечные">
+              </a>
+            </li>
+          </ul>
+          <button class="films__btn">Выбрать, что посмотреть</button>
+        </div>
+      </section>
     </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrap">
+          <div class="footer__column contacts">
+            <p class="contacts__logo"><span class="contacts__logo--primary">Methed</span> Cinema</p>
+            <p class="contacts__description">онлайн-кинотеатр</p>
+            <a class="contacts__phone" href="tel:88003336202">8 800 333 62 02</a>
+            <a class="contacts__email" href="mailto:help@tvmethed.ru">help@tvmethed.ru</a>
+            <a class="contacts__email" href="mailto:pressa@tvmethed.ru">pressa@tvmethed.ru</a>
+          </div>
+          <div class="footer__column nav">
+            <ul class="nav__list">
+              <li class="nav__item"><a href="#" class="nav__link">Публичная оферта</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">Партнерам</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">FAQ</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">Приложения</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">Карта сайта</a></li>
+            </ul>
+          </div>
+          <div class="footer__column regulation">
+            <img class="regulation__img" src="blocks/footer/img/18.svg" alt="Только для совершеннолетних">
+            <p class="regulation__offer">Просматривая материалы, находящиеся на настоящем сайте, вы обязуетесь выполнять условия Публичной оферты</p>
+          </div>
+          <div class="footer__column partners">
+            <img class="partners__img" src="blocks/footer/img/me.svg" alt="Логотип Methed">
+            <p class="partners__description">Исследования осуществляются ООО «МЕТЭД ДЕВЕЛОПМЕНТ» при  поддержке Фонда «SPB Tech»</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <nav class="navigation">
+      <ul class="navigation__list">
+        <li class="navigation__item"><a href="#" class="navigation__link">Публичная оферта</a></li>
+        <li class="navigation__item"><a href="#" class="navigation__link">Партнерам</a></li>
+        <li class="navigation__item"><a href="#" class="navigation__link">FAQ</a></li>
+        <li class="navigation__item"><a href="#" class="navigation__link">Приложения</a></li>
+        <li class="navigation__item"><a href="#" class="navigation__link">Карта сайта</a></li>
+      </ul>
+    </nav>
   </div>
   
 </body>

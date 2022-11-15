@@ -1,0 +1,44 @@
+@import "__list/__list.css";
+@import "__item/__item.css";
+@import "__link/__link.css";
+
+.navigation {
+  position: fixed;
+  display: flex;
+  top: 0;
+  right: 0;
+  width: 40rem;
+  height: 100vh;
+  background-color: var(--color-bg);
+  padding: 14rem 3rem 3rem;
+  transition: transform .3s ease-in;
+  transform: translate(40rem);
+}
+
+.navigation.active {
+  transform: translateX(0);
+}
+
+/* (max-width: 767px) */
+@media (max-width: 47.9375em) {
+  .navigation {
+    width: 50rem;
+    height: 100vh;
+    background-color: var(--color-bg);
+    padding: 20rem 3rem 3rem;
+    transition: transform .3s ease-in;
+    transform: translate(50rem);
+  }
+}
+
+/* (min-width: 768px) and (max-width: 1023px) */
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .navigation {
+    width: 50rem;
+    height: 100vh;
+    background-color: var(--color-bg);
+    padding: 20rem 3rem 3rem;
+    transition: transform .3s ease-in;
+    transform: translate(50rem);
+  }
+}

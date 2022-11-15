@@ -1,0 +1,32 @@
+.films__btn {
+  border-radius: .6rem;
+  background-color: var(--color-primary);
+  color: var(--color-bg);
+  padding: 2.5rem 7rem;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  display: block;
+  margin: 0 auto;
+  transition: box-shadow .2s ease-in;
+}
+
+/* (max-width: 767px) */
+@media (max-width: 47.9375em) {
+  .films__btn {
+    border-radius: 1.2rem;
+    padding: 4rem 5rem;
+    font-weight: 700;
+    font-size: 3.6rem;
+    line-height: 4.4rem;
+  }
+}
+
+.films__btn:hover {
+  box-shadow: 0 0 1rem .5rem var(--color-primary);
+}
+
+.films__btn:focus,
+.films__btn:active {
+  box-shadow: 0 0 1rem var(--color-primary);
+}

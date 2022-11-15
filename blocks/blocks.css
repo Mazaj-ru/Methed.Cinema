@@ -2,29 +2,10 @@
 @import "hamburger/hamburger.css";
 @import "search/search.css";
 @import "preview/preview.css";
-
-
-/* (max-width: 767px) */
-@media (max-width: 47.9375em) {
-
-}
-
-/* (min-width: 768px) and (max-width: 1023px) */
-@media (min-width: 48em) and (max-width: 63.9375em) {
-
-}
-
-/* (min-width: 1024px) and (max-width: 1439px) */
-@media (min-width: 64em) and (max-width: 89.9375em) {
-
-}
-
-/* (min-width: 1440px) and (max-width: 1599px) */
-@media (min-width: 90em) and (max-width: 99.9375em) {
-
-}
-
-/* (min-width: 1600px) and (max-width: 1919px) */
-@media (min-width: 100em) and (max-width: 119.9375em) {
-
-}
+@import "films/films.css";
+@import "footer/footer.css";
+@import "contacts/contacts.css";
+@import "nav/nav.css";
+@import "regulation/regulation.css";
+@import "partners/partners.css";
+@import "navigation/navigation.css";

@@ -1,0 +1,5 @@
+.films__img {
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem var(--color-primary);
+  transition: box-shadow .2s ease-in;
+}
